@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Practical 5</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <a href="#user-profile">User Profile</a> 
+        <a href="#quiz">Quiz    </a> 
+        <a href="#survey">Survey   </a> 
+        <a href="#feedback">Feedback</a>
+    </nav>
+    
+    <!--user profile-->
+    <section id="user-profile">
+        <h1>User Profile</h1>
+        <!-- to get name from the user-->
+        <p>Please fill all the texts in the fields (* <small> fields are mandatory </small> )</p>
+
+        <p>First Name:* <input type="text" id="first_name" name="first_name" required placeholder="    john viz" > </p>
+        <p>Second Name: <input type="text" id="second_name" name="second_name" placeholder="   john viz"> </p>
+
+        <p> Date of Birth:* <input placeholder="01/01/2001" type="date" name="dob" id="dob" required></p>
+
+        <p>School/College: <input type="text" placeholder="xyz" name="school" id="school"> </p>
+
+        <input type="submit" value="Submit">
+    </section>
+
+    <!--quiz-->
+    <section id="quiz">
+        <h1>Quiz</h1>
+        <p>
+        <form name="quiz">
+        <p>
+        <b>Question 1. 
+        <br>Which attribute specifies a unique alphanumeric identifier to be associated with an element?<br></b>
+        <blockquote>
+        <input type="radio" name="q1" value="class">class<br>
+        <input type="radio" name="q1" value="id">id<br>
+        <input type="radio" name="q1" value="article">article<br>
+        </blockquote>
+
+        <p><b>
+        Question 2.
+        <br>The _____________ attribute specifies an inline style associated with an element, which determines the rendering of the affected element.<br></b>
+        <blockquote>
+        <input type="radio" name="q2" value="dir">dir<br>
+        <input type="radio" name="q2" value="style">style<br>
+        <input type="radio" name="q2" value="class">class<br>
+        </blockquote>
+        <p><b>
+        Question 3.
+        <br>Which attribute is used to provide an advisory text about an element or its contents?<br></b>
+        <blockquote>
+        <input type="radio" name="q3" value="tooltip">tooltip<br>
+        <input type="radio" name="q3" value="dir">dir<br>
+        <input type="radio" name="q3" value="title">title<br>
+        </blockquote>
+        <p><b>
+        Question 4.
+        <br>The __________ attribute sets the text direction as related to the lang attribute.<br></b>
+        <blockquote>
+        <input type="radio" name="q4" value="lang">lang<br>
+        <input type="radio" name="q4" value="sub">sub<br>
+        <input type="radio" name="q4" value="dir">dir<br>
+        </blockquote>
+        <p><b>
+
+        Question 5.
+        <br>Which element is used for creating links?<br></b>
+        <blockquote>
+        <input type="radio" name="q5" value="a">a<br>
+        <input type="radio" name="q5" value="p">p<br>
+        <input type="radio" name="q5" value="li">li<br>
+        </blockquote>
+        <p><b>
+
+        Question 6.
+        <br>Relative URLs are used to ____________<br></b>
+        <blockquote>
+        <input type="radio" name="q6" value="link other pages within the same site">link other pages within the same site<br>
+        <input type="radio" name="q6" value="link the same page with other sites">link the same page with other sites<br>
+        <input type="radio" name="q6" value="link other pages with other sites">link other pages with other sites<br>
+        </blockquote>
+        <p><b>
+
+        Question 7.
+        <br>Which one of the following is not the value of the target attribute?<br></b>
+        <blockquote>
+        <input type="radio" name="q7" value="_blank">_blank<br>
+        <input type="radio" name="q7" value="_top">_top<br>
+        <input type="radio" name="q7" value="_empty">_empty<br>
+        </blockquote>
+        <p><b>
+
+        Question 8.
+        <br>File paths are not used for linking in _________<br></b>
+        <blockquote>
+        <input type="radio" name="q8" value="JavaScripts">JavaScripts<br>
+        <input type="radio" name="q8" value="PHP">PHP<br>
+        <input type="radio" name="q8" value="style sheets">style sheets<br>
+        </blockquote>
+        <p><b>
+        
+            
+        Question 9.
+        <br> For creating single line text box for searching queries, we use the type ___________<br></b>
+        <blockquote>
+        <input type="radio" name="q9" value="placeholder">placeholder<br>
+        <input type="radio" name="q9" value="search">search<br>
+        <input type="radio" name="q9" value="url">url<br>
+        </blockquote>
+        <p><b>
+        
+        Question 10.
+        <br>Form validation traditionally was performed by ___________<br></b>
+        <blockquote>
+        <input type="radio" name="q10" value="PHP">PHP<br>
+        <input type="radio" name="q10" value="HTML">HTML<br>
+        <input type="radio" name="q10" value="JavaScript">JavaScript<br>
+        </blockquote>
+        <p><b>
+        <b>
+
+        <input type="submit" value="Submit">   
+    </form>
+</section>
+
+<!--Survey section-->
+<section id="survey">
+    
+    <h1>Survey</h1>
+
+    <div>
+        <form id="form">
+    
+            <div class="form-control">
+                <label>
+                    Which option best describes you?
+                </label>    
+                
+                <!-- options -->
+                <select name="role" id="role">
+                    <option class="role" value="student"><p> Student </p></option>
+                    <option class="role" value="intern"> <p>Intern</p></option>
+                    <option class="role" value="professional"> <p>Professional</p></option>
+                    <option class="role" value="other"><p>Other </p></option>
+                </select>
+            </div>
+    <br>
+            <div class="form-control">
+                <label>
+                Do you think the automatically created websites are effective? 
+                </label>
+    
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"id="recommed-1" name="recommed">Yes</input>
+                </label>
+                
+                <label for="recommed-2">
+                    <input type="radio"id="recommed-2" name="recommed">No</input>
+                </label>
+
+                <label for="recommed-3">
+                    <input type="radio"id="recommed-3" name="recommed">Maybe</input>
+                </label>
+            </div>
+        <br>
+            <div class="form-control">
+                <label>Best frameworks for Web Development 
+                    <small>(Check all that apply)</small>
+                </label><br>
+                <!-- Input Type Checkbox -->
+                <label for="inp-1">
+                    <input class="frame" type="checkbox" name="inp">Express</input></label> <br>
+                <label for="inp-2"> 
+                    <input class="frame" type="checkbox" name="inp">Django</input></label> <br>
+                <label for="inp-3">
+                    <input class="frame" type="checkbox"name="inp">Rails</input></label> <br>
+                <label for="inp-4">
+                    <input class="frame" type="checkbox"name="inp">Laravel</input></label> <br>
+                <label for="inp-5">
+                    <input class="frame" type="checkbox"name="inp">Spring</input></label> <br>
+                <label for="inp-6">
+                    <input class="frame" type="checkbox" name="inp">Angular</input></label> <br>
+                <label for="inp-7">
+                    <input class="frame" type="checkbox" name="inp">React</input></label> <br>
+                <label for="inp-7">
+                    <input class="frame" type="checkbox" name="inp">Vue</input></label> <br>
+                <label for="inp-7">
+                    <input class="frame" type="checkbox" name="inp">Ember</input></label> <br>
+                <label for="inp-7">
+                    <input class="frame" type="checkbox" name="inp">Backbone</input></label> <br>
+            </div>
+        <br>
+            <div class="form-control">
+                <label for="comment">
+                    Any comments or suggestions
+                </label>
+                <br>
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment" placeholder="Enter your comment here">
+                </textarea>
+            </div>
+        <br>
+            <input type="submit" value="Submit">
+        </3form>
+    </div>
+</section>
+
+<!--feedback section-->
+<section id="feedback">
+    <h1> Feedback Form</h1>  <!-- for heading , class is given to give a particular style to main heading-->
+
+    <div class="containers">
+        <div class="container1">
+         <form action="">
+             <p>Please fill all the texts in the fields (* <small> fields are mandatory </small> )</p>
+             
+             <!-- to get email from the user-->
+             <p>Email:* <input type="email" id="email" name="email" placeholder="xyz@abc.com" required> </p>
+             
+             <!-- to get mobile number from user-->
+             <p>MobileNumber: <input name="mobileNumber" type="text" class="form-control" placeholder="Mobile Number" data-phone-number-input="" maxlength="10" size="10"> </p>
+             
+             <!--any message from the user-->
+             <p> Feedback:*</p>
+             <textarea name="message" id="message" cols="130" rows="10" placeholder="Your message to us" required></textarea> 
+     
+             <!--submit button-->
+             <input type="submit" value="Submit">
+         </form>
+     </div>
+     
+</section>
+
+</body>
+</html>

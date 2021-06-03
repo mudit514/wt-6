@@ -1,0 +1,170 @@
+body{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/* nav bar */
+.navigation {
+    background-color: #f98404;
+    overflow: hidden;
+    position: fixed;
+    width: 98.8%;
+  }
+  
+  /*links*/
+  .navigation a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  /*on hover */
+  .navigation a:hover {
+    background-color: #2bd614b4;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+section{
+    padding: 7% 15%;
+    /* border: 1px solid grey; */
+}
+
+#user-profile, #survey{
+    background-color: #f98404;
+}
+
+ #quiz , #feedback{
+    background-color: #f9b208;
+ }
+h1{   
+    font-size:60px; 
+    color: #000000;
+    text-align: center;
+}
+
+/*paragraph */
+p{
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+/* label */
+label {
+  color: #000000;
+  font-weight: bold;
+  line-height: 1.5rem;
+  }
+
+/*textarea */
+textarea{
+  width: 500px;
+  height: 200px;
+}
+
+.frame{
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+hr{
+  color: #f9b208;
+}
+
+/* feedback form */
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-feature-settings: "vjmo";
+    
+    }
+    
+    .container1{
+        width: 100%;
+        padding: 5px 10px 15px 20px;
+        border-radius: 8px;
+    }
+    
+    .heading_main{
+        text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"]
+    textarea{
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin: 5px;  
+        border: 1px solid #194350; 
+    }
+    
+    .containers{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 20px;
+        width: 100%;
+    }
+    
+    .container2{
+        border: none;
+        border-radius: 5px;
+        background-color: #f7fd04;
+        padding: 10px;
+        height: 70%;
+    }
+    
+    .container2 h1,a{
+        text-align: center;
+    }
+    
+    input[type="submit"]{
+        background-color: #fc5404;
+        color: rgb(0, 0, 0);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 30%;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    
+    input[type="submit"]:hover{
+        background-color: rgb(104, 218, 206);
+    }
+    
+    /* unvisited link */
+    a:link {
+        color: #f7fd04;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: green;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+      
+      /* selected link */
+      a:active {
+        color: rgb(72, 255, 0);
+      }
+    
